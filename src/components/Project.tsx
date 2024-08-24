@@ -1,4 +1,7 @@
 import React from "react";
+import starfin from '../assets/images/startfin-properties.png';
+import gamerdepot from '../assets/images/gamer-depot.png';
+import field from '../assets/images/field.png';
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
@@ -17,58 +20,23 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://starfinventures.com/" target="_blank" rel="noreferrer"><img src={starfin} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.starfinventures.com/" target="_blank" rel="noreferrer"><h2>StarFin Ventures</h2></a>
+                <p>Developed the foundation of a full-stack web app, collaborating with multiple teams to ensure project alignment and implementing key features like user registration, property listing, and an Admin role for streamlined site control. Also wrote a detailed software manual to reduce onboarding time and designed a RESTful API for seamless integration using request protocols.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://main--lively-daffodil-df0457.netlify.app/" target="_blank" rel="noreferrer"><img src={gamerdepot} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://main--lively-daffodil-df0457.netlify.app/" target="_blank" rel="noreferrer"><h2>Computer Part Quick Selling</h2></a>
+                <p>Developed a Full Stack application using the MERN stack, integrating React.js for a dynamic frontend and Node.js with Express.js for a robust backend, optimized for efficient request handling. Implemented MongoDB for flexible data storage, a shopping cart system, and order tracking, while integrating Google Firebase for secure user authentication.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://www.github.com/alituco/field" target="_blank" rel="noreferrer"><img src={field} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.github.com/alituco/field" target="_blank" rel="noreferrer"><h2>Field: Sports Matchmaking App</h2></a>
+                <p>Field is the all-in-one app for sports enthusiasts. Customize your profile, create and manage clans, and handle user requests with ease. Organize matches with a dynamic skill rating system and book sports facilities directly within the app. Whether you're forming teams, scheduling games, or booking courts, Field provides everything you need for a seamless sports experience.</p>
             </div>
         </div>
     </div>
     );
-}
+};
 
-export default Project;
+export default Project
