@@ -8,18 +8,30 @@ import '../assets/styles/Expertise.scss';
 const labelsFirst = [
     "NodeJS",
     "ReactJS",
+    "NextJS",
+    "Redux",
     "ExpressJS",
     "Flask",
+    "Docker Compose",
+    "RESTful APIs",
+    "GitLab",
+    "CICD",
+    "Agile",
+    "Scrum",
     "JavaScript",
     "TypeScript",
-    "HTML5",
-    "CSS3",
     "Python",
+    "Spring Boot",
+    "ASP.NET",
     "Django",
+    "GitHub Actions",
+    "AWS",
+    "GraphQL",
     "SQL",
     "PostgreSQL",
     "MongoDB",
-    "Postman"
+    "Postman",
+    "Blockchain",
 ];
 
 const labelsSecond = [
@@ -34,9 +46,15 @@ const labelsSecond = [
 
 const labelsThird = [
     "Python",
+    "Scikit-learn",
     "Pandas",
     "SQL",
     "Matplotlib",
+    "Tensorflow",
+    "Pytorch",
+    "Neural Networks",
+    "Apache Spark",
+    "Redshift"
 ];
 
 function Expertise() {
