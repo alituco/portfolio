@@ -28,8 +28,8 @@ function Project() {
                 <p>Field is the all-in-one app for sports enthusiasts. Customize your profile, create and manage clans, and handle user requests with ease. Organize matches with a dynamic skill rating system and book sports facilities directly within the app. Whether you're forming teams, scheduling games, or booking courts, Field provides everything you need for a seamless sports experience.</p>
             </div>
             <div className="project">
-                <a href="https://www.github.com/alituco/field" target="_blank" rel="noreferrer"><img src={license}  className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.github.com/alituco/field" target="_blank" rel="noreferrer"><h2> Bahrain License Plate Estimator</h2></a>
+                <a href="https://license-plate-estimator-react.onrender.com/" target="_blank" rel="noreferrer"><img src={license}  className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://license-plate-estimator-react.onrender.com/" target="_blank" rel="noreferrer"><h2> Bahrain License Plate Estimator</h2></a>
                 <p> Developed a predictive model using Random Forest to estimate the price of license plates, incorporating features like palindrome patterns and consecutive numbers for enhanced accuracy. Implemented the model through a Flask web application, enabling users to input license plate numbers and receive real-time price predictions.</p>
             </div>
             <div className="project">
