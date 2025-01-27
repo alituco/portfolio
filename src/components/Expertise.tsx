@@ -47,6 +47,8 @@ const labelsSecond = [
 const labelsThird = [
     "Python",
     "Scikit-learn",
+    "Tableau",
+    "Power BI",
     "Pandas",
     "SQL",
     "Matplotlib",
@@ -54,7 +56,6 @@ const labelsThird = [
     "Pytorch",
     "Neural Networks",
     "Apache Spark",
-    "Redshift"
 ];
 
 function Expertise() {
