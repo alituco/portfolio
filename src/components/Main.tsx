@@ -18,8 +18,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/ali-a-6a0076294/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Ali Altaraif</h1>
-          <p>Full Stack Engineer</p>
-
+          <p>Full Stack Engineer & Data Scientist</p>
           <div className="mobile_social_icons">
             <a href="https://github.com/alituco" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="hhttps://www.linkedin.com/in/ali-a-6a0076294/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>

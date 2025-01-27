@@ -4,6 +4,7 @@ import gamerdepot from '../assets/images/gamer-depot.png';
 import field from '../assets/images/field.png';
 import license from '../assets/images/license-plate.png';
 import bahrainProperties from '../assets/images/bahrain-properties.png';
+import preventativeDiabetes from '../assets/images/preventative_diabetes.png';
 
 import '../assets/styles/Project.scss';
 
@@ -13,9 +14,14 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://bahrain-properties-next.onrender.com/" target="_blank" rel="noreferrer"><img src={bahrainProperties}  className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://bahrain-properties-next.onrender.com/" target="_blank" rel="noreferrer"><h2>  Pioneering Real Estate Mapping and Valuation System in Bahrain: </h2></a>
+                <a href="http://147.182.185.158:3002/" target="_blank" rel="noreferrer"><img src={bahrainProperties}  className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="http://147.182.185.158:3002/" target="_blank" rel="noreferrer"><h2>  Pioneering Real Estate Mapping and Valuation System in Bahrain: </h2></a>
                 <p>Developed Bahrain's first interactive real estate mapping and valuation platform, utilized by real estate agents for accurate property assessments. Integrated GraphQL for optimized data queries and leveraged geospatial APIs to dynamically map properties. Designed a custom machine learning valuation model, tailored for individual real estate companies, informed by extensive data analysis and collaboration with agents. Built a robust backend with PostgreSQL, supporting seamless property data management, and implemented a user-friendly interface with advanced filtering features currently in progress. This groundbreaking system addresses a critical gap in Bahrain's real estate market. </p>
+            </div>
+            <div className="project">
+                <a href="http://147.182.185.158:3000/" target="_blank" rel="noreferrer"><img src={preventativeDiabetes}  className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="http://147.182.185.158:3000/" target="_blank" rel="noreferrer"><h2> Diabetes Prevention Visualisations & Prevention Calculator </h2></a>
+                <p> Developed a data-driven web application using React and Next.js to evaluate and compare individuals' diabetes and heart disease risk based on critical healthcare metrics such as age, weight, smoking status, and dietary habits. Trained advanced AI and machine learning models to power a valuable risk calculator, delivering personalized risk assessments and actionable health insights for effective disease prevention. Integrated six interactive Tableau visualizations to present complex biomedical data and health trends, enhancing user understanding and supporting proactive healthcare strategies. </p>
             </div>
             <div className="project">
                 <a href="https://main--lively-daffodil-df0457.netlify.app/" target="_blank" rel="noreferrer"><img src={gamerdepot} className="zoom" alt="thumbnail" width="100%"/></a>
