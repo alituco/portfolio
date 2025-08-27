@@ -16,6 +16,46 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="July 2025 - Current"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Data Engineering Intern at <span className="company-name">Gala Capital Partners</span>
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+
+            <ul>
+              <li>Designed an AWS lakehouse pipeline (S3 → Athena/Glue) with a lax staging layer and typed Parquet “silver” tables.</li>
+              <li>Automated daily ELT with EventBridge + Lambda; partitioned by <code>busi_date</code> for scan pruning.</li>
+              <li>Built Power BI models via the Athena connector with Incremental Refresh and date-partitioned refresh policies.</li>
+              <li>Normalized “checks / items / comps / discounts / voids” and added safe casts/regex cleaning for messy numeric fields.</li>
+            </ul>
+
+            <p style={{ marginTop: '8px' }}>
+              <strong>Stack:</strong> Python, SQL, AWS (S3, Athena, Glue, Lambda, EventBridge), Parquet, Power BI, Git/GitHub
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="May 2025 - July 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+                AI & Machine Learning Instructor at   <span className="company-name">iD Tech</span>
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Tempe, AZ</h4>
+            <p>
+              Pandas, NumPy, scikit-learn, TensorFlow/Keras, SQL/PostgreSQL, Jupyter/Colab </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Nov 2024 - Current"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
